@@ -149,6 +149,9 @@ static const CGFloat kLayoutImageScrollViewAnimationDuration = 0.25;
     
     [self.view addGestureRecognizer:self.doubleTapGestureRecognizer];
     [self.view addGestureRecognizer:self.rotationGestureRecognizer];
+    
+    // BlueCrystal
+    self.navigationController.navigationBar.backgroundColor = [UIColor colorWithRed:(68.0/255.0) green:(99.0/255.0) blue:(201.0/255.0) alpha:1.0];
 }
 
 - (void)viewWillAppear:(BOOL)animated
